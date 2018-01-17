@@ -1,6 +1,6 @@
 //
 //  ShootVideoViewController.h
-//  VideoRecord
+//  VideoRecording
 //
 //  Created by lwq on 2015/7/17.
 //  Copyright © 2015年 lwq. All rights reserved.

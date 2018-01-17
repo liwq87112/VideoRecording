@@ -1,6 +1,6 @@
 //
 //  ShootVideoViewController.m
-//  VideoRecord
+//  VideoRecording
 //
 //  Created by lwq on 2015/7/17.
 //  Copyright © 2015年 lwq. All rights reserved.
@@ -90,18 +90,18 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
 
 -(void)initCapture{
     
-    UIView *topView = [[UIView alloc]initWithFrame:CGRectMake(0, 64, preLayerWidth, 100)];
+    UIView *topView = [[UIView alloc]initWithFrame:CGRectMake(0, 64, preLayerWidth, 70)];
     topView.backgroundColor = [UIColor colorWithRed:234/255.0 green:238/255.0 blue:239/255.0 alpha:1.0];
     [self.view addSubview:topView];
 
     UILabel * topTitleLabel= [[UILabel alloc]initWithFrame:CGRectMake(10, 5, preLayerWidth-20, 20)];
-    topTitleLabel.text = @"请手持身份证并用标准普通话朗读以下文字";
+    topTitleLabel.text = @"xx希望能帮助您xx";
     topTitleLabel.textColor = [UIColor colorWithRed:49/255.0 green:181/255.0 blue:153/255.0 alpha:1.0];
     topTitleLabel.font = [UIFont systemFontOfSize:14];
     [topView addSubview:topTitleLabel];
     
-    UILabel *textLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 20, preLayerWidth-20, 80)];
-    textLabel.text = @"本人lwq，身份证号是-------。自愿在----申请借款，保证所提交信息的真实性和完整性，并承诺按时还款，否则愿意承担一切法律责任。";
+    UILabel *textLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 20, preLayerWidth-20, 50)];
+    textLabel.text = @"本人xx，身份证号是xx。自愿在xxx，保证所提交信息的真实性和完整性，并承诺按时还款，否则愿意承担一切法律责任。";
     textLabel.textColor = [UIColor lightGrayColor];
     textLabel.font = [UIFont systemFontOfSize:14];
     textLabel.numberOfLines = 0;
@@ -109,7 +109,7 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
     
     
     //视频高度加进度条（10）高度
-    self.viewContainer = [[UIView alloc]initWithFrame:CGRectMake(0, 64+100, preLayerWidth, preLayerWidth *WidAnHig)];
+    self.viewContainer = [[UIView alloc]initWithFrame:CGRectMake(0, 64+70, preLayerWidth, preLayerWidth *WidAnHig)];
     [self.view addSubview:self.viewContainer];
     UIImageView *imageView = [[UIImageView alloc]initWithFrame:self.viewContainer.bounds];
     [self.viewContainer addSubview:imageView];
@@ -327,6 +327,13 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     [self.captureSession startRunning];
+ 
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [UIApplication sharedApplication].idleTimerDisabled = YES;
 }
 
 -(void)viewDidDisappear:(BOOL)animated{
@@ -343,6 +350,7 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
     [self stopTimer];
     _circle.progress = 0.0;
     [shootBt setTitle:@"开始" forState:UIControlStateNormal];
+    [UIApplication sharedApplication].idleTimerDisabled = NO;
 }
 
 

@@ -24,6 +24,7 @@
 		E33481DE200EF1C800A358D1 /* upload.png in Resources */ = {isa = PBXBuildFile; fileRef = E33481DD200EF1C800A358D1 /* upload.png */; };
 		E33481E0200EF1CD00A358D1 /* viewBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E33481DF200EF1CC00A358D1 /* viewBG.png */; };
 		E33481E2200EF1D000A358D1 /* review.png in Resources */ = {isa = PBXBuildFile; fileRef = E33481E1200EF1D000A358D1 /* review.png */; };
+		E334826B200F795000A358D1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E334826A200F795000A358D1 /* Info.plist */; };
 		E33A4059200E2052003F672B /* XLCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = E33A4054200E2052003F672B /* XLCircle.m */; };
 		E33A405A200E2052003F672B /* XLCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E33A4056200E2052003F672B /* XLCircleProgress.m */; };
 /* End PBXBuildFile section */
@@ -39,11 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		58FFD6661B1D6D0000163610 /* VideoRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		58FFD66A1B1D6D0000163610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58FFD6661B1D6D0000163610 /* VideoRecording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoRecording.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FFD66B1B1D6D0000163610 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58FFD6761B1D6D0000163610 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		58FFD67F1B1D6D0000163610 /* VideoRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FFD67F1B1D6D0000163610 /* VideoRecordingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoRecordingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FFD6841B1D6D0000163610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58FFD6851B1D6D0000163610 /* VideoRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoRecordTests.m; sourceTree = "<group>"; };
 		58FFD68F1B1D6D4900163610 /* changeCamer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = changeCamer.png; sourceTree = "<group>"; };
@@ -64,6 +64,7 @@
 		E33481DD200EF1C800A358D1 /* upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upload.png; sourceTree = "<group>"; };
 		E33481DF200EF1CC00A358D1 /* viewBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viewBG.png; sourceTree = "<group>"; };
 		E33481E1200EF1D000A358D1 /* review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = review.png; sourceTree = "<group>"; };
+		E334826A200F795000A358D1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E33A4053200E2052003F672B /* XLCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCircle.h; sourceTree = "<group>"; };
 		E33A4054200E2052003F672B /* XLCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCircle.m; sourceTree = "<group>"; };
 		E33A4055200E2052003F672B /* XLCircleProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCircleProgress.h; sourceTree = "<group>"; };
@@ -91,8 +92,8 @@
 		58FFD65D1B1D6D0000163610 = {
 			isa = PBXGroup;
 			children = (
-				58FFD6681B1D6D0000163610 /* VideoRecord */,
-				58FFD6821B1D6D0000163610 /* VideoRecordTests */,
+				58FFD6681B1D6D0000163610 /* VideoRecording */,
+				58FFD6821B1D6D0000163610 /* VideoRecordingTests */,
 				58FFD6671B1D6D0000163610 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,13 +101,13 @@
 		58FFD6671B1D6D0000163610 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58FFD6661B1D6D0000163610 /* VideoRecord.app */,
-				58FFD67F1B1D6D0000163610 /* VideoRecordTests.xctest */,
+				58FFD6661B1D6D0000163610 /* VideoRecording.app */,
+				58FFD67F1B1D6D0000163610 /* VideoRecordingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58FFD6681B1D6D0000163610 /* VideoRecord */ = {
+		58FFD6681B1D6D0000163610 /* VideoRecording */ = {
 			isa = PBXGroup;
 			children = (
 				E33A4052200E2052003F672B /* Class */,
@@ -122,25 +123,25 @@
 				58FFD6761B1D6D0000163610 /* Images.xcassets */,
 				58FFD6691B1D6D0000163610 /* Supporting Files */,
 			);
-			path = VideoRecord;
+			path = VideoRecording;
 			sourceTree = "<group>";
 		};
 		58FFD6691B1D6D0000163610 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				58FFD66A1B1D6D0000163610 /* Info.plist */,
+				E334826A200F795000A358D1 /* Info.plist */,
 				58FFD66B1B1D6D0000163610 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		58FFD6821B1D6D0000163610 /* VideoRecordTests */ = {
+		58FFD6821B1D6D0000163610 /* VideoRecordingTests */ = {
 			isa = PBXGroup;
 			children = (
 				58FFD6851B1D6D0000163610 /* VideoRecordTests.m */,
 				58FFD6831B1D6D0000163610 /* Supporting Files */,
 			);
-			path = VideoRecordTests;
+			path = VideoRecordingTests;
 			sourceTree = "<group>";
 		};
 		58FFD6831B1D6D0000163610 /* Supporting Files */ = {
@@ -182,9 +183,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58FFD6651B1D6D0000163610 /* VideoRecord */ = {
+		58FFD6651B1D6D0000163610 /* VideoRecording */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58FFD6891B1D6D0000163610 /* Build configuration list for PBXNativeTarget "VideoRecord" */;
+			buildConfigurationList = 58FFD6891B1D6D0000163610 /* Build configuration list for PBXNativeTarget "VideoRecording" */;
 			buildPhases = (
 				58FFD6621B1D6D0000163610 /* Sources */,
 				58FFD6631B1D6D0000163610 /* Frameworks */,
@@ -194,14 +195,14 @@
 			);
 			dependencies = (
 			);
-			name = VideoRecord;
+			name = VideoRecording;
 			productName = VideoRecord;
-			productReference = 58FFD6661B1D6D0000163610 /* VideoRecord.app */;
+			productReference = 58FFD6661B1D6D0000163610 /* VideoRecording.app */;
 			productType = "com.apple.product-type.application";
 		};
-		58FFD67E1B1D6D0000163610 /* VideoRecordTests */ = {
+		58FFD67E1B1D6D0000163610 /* VideoRecordingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58FFD68C1B1D6D0000163610 /* Build configuration list for PBXNativeTarget "VideoRecordTests" */;
+			buildConfigurationList = 58FFD68C1B1D6D0000163610 /* Build configuration list for PBXNativeTarget "VideoRecordingTests" */;
 			buildPhases = (
 				58FFD67B1B1D6D0000163610 /* Sources */,
 				58FFD67C1B1D6D0000163610 /* Frameworks */,
@@ -212,9 +213,9 @@
 			dependencies = (
 				58FFD6811B1D6D0000163610 /* PBXTargetDependency */,
 			);
-			name = VideoRecordTests;
+			name = VideoRecordingTests;
 			productName = VideoRecordTests;
-			productReference = 58FFD67F1B1D6D0000163610 /* VideoRecordTests.xctest */;
+			productReference = 58FFD67F1B1D6D0000163610 /* VideoRecordingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58FFD6611B1D6D0000163610 /* Build configuration list for PBXProject "VideoRecord" */;
+			buildConfigurationList = 58FFD6611B1D6D0000163610 /* Build configuration list for PBXProject "VideoRecording" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -250,8 +251,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58FFD6651B1D6D0000163610 /* VideoRecord */,
-				58FFD67E1B1D6D0000163610 /* VideoRecordTests */,
+				58FFD6651B1D6D0000163610 /* VideoRecording */,
+				58FFD67E1B1D6D0000163610 /* VideoRecordingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,6 +270,7 @@
 				58FFD6971B1D6D4900163610 /* flashOn.png in Resources */,
 				58FFD6961B1D6D4900163610 /* flashOff.png in Resources */,
 				58FFD6991B1D6D4900163610 /* shootFinish.png in Resources */,
+				E334826B200F795000A358D1 /* Info.plist in Resources */,
 				E33481DC200EF1B500A358D1 /* sure.png in Resources */,
 				E33481E0200EF1CD00A358D1 /* viewBG.png in Resources */,
 				58FFD6771B1D6D0000163610 /* Images.xcassets in Resources */,
@@ -312,7 +314,7 @@
 /* Begin PBXTargetDependency section */
 		58FFD6811B1D6D0000163610 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 58FFD6651B1D6D0000163610 /* VideoRecord */;
+			target = 58FFD6651B1D6D0000163610 /* VideoRecording */;
 			targetProxy = 58FFD6801B1D6D0000163610 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -407,8 +409,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VV2ZVJX725;
-				INFOPLIST_FILE = VideoRecord/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = "$(SRCROOT)/VideoRecording/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -423,8 +425,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VV2ZVJX725;
-				INFOPLIST_FILE = VideoRecord/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = "$(SRCROOT)/VideoRecording/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -447,7 +449,7 @@
 				INFOPLIST_FILE = VideoRecordTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoRecord.app/VideoRecord";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoRecording.app/VideoRecording";
 			};
 			name = Debug;
 		};
@@ -462,14 +464,14 @@
 				INFOPLIST_FILE = VideoRecordTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoRecord.app/VideoRecord";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoRecording.app/VideoRecording";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58FFD6611B1D6D0000163610 /* Build configuration list for PBXProject "VideoRecord" */ = {
+		58FFD6611B1D6D0000163610 /* Build configuration list for PBXProject "VideoRecording" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58FFD6871B1D6D0000163610 /* Debug */,
@@ -478,7 +480,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58FFD6891B1D6D0000163610 /* Build configuration list for PBXNativeTarget "VideoRecord" */ = {
+		58FFD6891B1D6D0000163610 /* Build configuration list for PBXNativeTarget "VideoRecording" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58FFD68A1B1D6D0000163610 /* Debug */,
@@ -487,7 +489,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58FFD68C1B1D6D0000163610 /* Build configuration list for PBXNativeTarget "VideoRecordTests" */ = {
+		58FFD68C1B1D6D0000163610 /* Build configuration list for PBXNativeTarget "VideoRecordingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58FFD68D1B1D6D0000163610 /* Debug */,

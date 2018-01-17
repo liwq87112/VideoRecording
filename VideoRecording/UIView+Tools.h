@@ -1,6 +1,6 @@
 //
 //  UIView+Tools.h
-//  VideoRecord
+//  VideoRecording
 //
 //  Created by lwq on 14-8-25.
 //  Copyright (c) 2014年 lwq. All rights reserved.

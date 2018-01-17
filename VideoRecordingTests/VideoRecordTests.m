@@ -1,6 +1,6 @@
 //
-//  VideoRecordTests.m
-//  VideoRecordTests
+//  VideoRecordingTests.m
+//  VideoRecordingTests
 //
 //  Created by guimingsu on 15/6/2.
 //  Copyright (c) 2015年 guimingsu. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface VideoRecordTests : XCTestCase
+@interface VideoRecordingTests : XCTestCase
 
 @end
 
-@implementation VideoRecordTests
+@implementation VideoRecordingTests
 
 - (void)setUp {
     [super setUp];

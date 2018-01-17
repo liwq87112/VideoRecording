@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:VideoRecord.xcodeproj">
+      location = "self:/Users/xiaoshupuhui/Desktop/VideoRecording/VideoRecording/VideoRecording.xcodeproj">
    </FileRef>
 </Workspace>

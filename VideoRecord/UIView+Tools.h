@@ -1,0 +1,13 @@
+//
+//  UIView+Tools.h
+//  VideoRecord
+//
+//  Created by lwq on 14-8-25.
+//  Copyright (c) 2014年 lwq. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface UIView (Tools)
+-(void)makeCornerRadius:(float)radius borderColor:(UIColor*)bColor borderWidth:(float)bWidth;
+@end

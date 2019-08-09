@@ -23,3 +23,4 @@ p2p 录制视频需求
 
 
 三、附上demo 地址  https://github.com/liwq87112/VideoRecording
+简书地址 https://www.jianshu.com/u/f9fc56f926ac

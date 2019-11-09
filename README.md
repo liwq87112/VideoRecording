@@ -12,9 +12,9 @@ p2p 录制视频需求
     我们决定自己做，而且网上有很多借鉴
 
 二、先来几张效果图。高度自定义
-     -  1、30秒短视频 可以自定义
-     -  2、开始3秒后 可以点完成或者重拍 不能停止（网贷需求）
-     -   3、按钮外围进度和倒计时
+-  1、30秒短视频 可以自定义
+-  2、开始3秒后 可以点完成或者重拍 不能停止（网贷需求） 
+-  3、按钮外围进度和倒计时
 ![IMG_1150.PNG](http://upload-images.jianshu.io/upload_images/2835602-26265bc1daff386a.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![IMG_1151.PNG](http://upload-images.jianshu.io/upload_images/2835602-21eb4a3298c2b837.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
